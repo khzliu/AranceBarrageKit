@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6636E4301CC096E10042CA15 /* ABLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 6636E42E1CC096E10042CA15 /* ABLabel.h */; };
+		6636E4311CC096E10042CA15 /* ABLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6636E42F1CC096E10042CA15 /* ABLabel.m */; };
+		6636E4341CC09D0B0042CA15 /* ABBaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 6636E4321CC09D0B0042CA15 /* ABBaseModel.h */; };
+		6636E4351CC09D0B0042CA15 /* ABBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6636E4331CC09D0B0042CA15 /* ABBaseModel.m */; };
 		66A56A971CBF6E1500ACB0B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A56A961CBF6E1500ACB0B7 /* main.m */; };
 		66A56A9A1CBF6E1500ACB0B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A56A991CBF6E1500ACB0B7 /* AppDelegate.m */; };
 		66A56A9D1CBF6E1500ACB0B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A56A9C1CBF6E1500ACB0B7 /* ViewController.m */; };
@@ -30,8 +34,6 @@
 		66A56AF01CBFA1DC00ACB0B7 /* ABRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A56AEE1CBFA1DC00ACB0B7 /* ABRenderer.m */; };
 		66A56AF31CBFA1FC00ACB0B7 /* ABRetainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 66A56AF11CBFA1FC00ACB0B7 /* ABRetainer.h */; };
 		66A56AF41CBFA1FC00ACB0B7 /* ABRetainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A56AF21CBFA1FC00ACB0B7 /* ABRetainer.m */; };
-		66A56AF71CBFA22500ACB0B7 /* ABBaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 66A56AF51CBFA22500ACB0B7 /* ABBaseModel.h */; };
-		66A56AF81CBFA22500ACB0B7 /* ABBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A56AF61CBFA22500ACB0B7 /* ABBaseModel.m */; };
 		66A56AFB1CBFA23800ACB0B7 /* ABTime.h in Headers */ = {isa = PBXBuildFile; fileRef = 66A56AF91CBFA23800ACB0B7 /* ABTime.h */; };
 		66A56AFC1CBFA23800ACB0B7 /* ABTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A56AFA1CBFA23800ACB0B7 /* ABTime.m */; };
 /* End PBXBuildFile section */
@@ -61,6 +63,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6636E42E1CC096E10042CA15 /* ABLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABLabel.h; sourceTree = "<group>"; };
+		6636E42F1CC096E10042CA15 /* ABLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABLabel.m; sourceTree = "<group>"; };
+		6636E4321CC09D0B0042CA15 /* ABBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABBaseModel.h; sourceTree = "<group>"; };
+		6636E4331CC09D0B0042CA15 /* ABBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABBaseModel.m; sourceTree = "<group>"; };
 		66A56A921CBF6E1500ACB0B7 /* ArcaneBarrageKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArcaneBarrageKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66A56A961CBF6E1500ACB0B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		66A56A981CBF6E1500ACB0B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -92,8 +98,6 @@
 		66A56AEE1CBFA1DC00ACB0B7 /* ABRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABRenderer.m; sourceTree = "<group>"; };
 		66A56AF11CBFA1FC00ACB0B7 /* ABRetainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABRetainer.h; sourceTree = "<group>"; };
 		66A56AF21CBFA1FC00ACB0B7 /* ABRetainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABRetainer.m; sourceTree = "<group>"; };
-		66A56AF51CBFA22500ACB0B7 /* ABBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABBaseModel.h; sourceTree = "<group>"; };
-		66A56AF61CBFA22500ACB0B7 /* ABBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABBaseModel.m; sourceTree = "<group>"; };
 		66A56AF91CBFA23800ACB0B7 /* ABTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTime.h; sourceTree = "<group>"; };
 		66A56AFA1CBFA23800ACB0B7 /* ABTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABTime.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -179,8 +183,8 @@
 		66A56AB61CBF762600ACB0B7 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				66A56AF51CBFA22500ACB0B7 /* ABBaseModel.h */,
-				66A56AF61CBFA22500ACB0B7 /* ABBaseModel.m */,
+				6636E4321CC09D0B0042CA15 /* ABBaseModel.h */,
+				6636E4331CC09D0B0042CA15 /* ABBaseModel.m */,
 				66A56AF91CBFA23800ACB0B7 /* ABTime.h */,
 				66A56AFA1CBFA23800ACB0B7 /* ABTime.m */,
 			);
@@ -218,6 +222,8 @@
 				66A56ADE1CBF9DCA00ACB0B7 /* ABViewSource.m */,
 				66A56AE11CBF9F5700ACB0B7 /* ArcaneBarrageView.h */,
 				66A56AE21CBF9F5700ACB0B7 /* ArcaneBarrageView.m */,
+				6636E42E1CC096E10042CA15 /* ABLabel.h */,
+				6636E42F1CC096E10042CA15 /* ABLabel.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -229,13 +235,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66A56AF71CBFA22500ACB0B7 /* ABBaseModel.h in Headers */,
+				6636E4341CC09D0B0042CA15 /* ABBaseModel.h in Headers */,
 				66A56ADB1CBF7B3200ACB0B7 /* ABViewConfiguration.h in Headers */,
 				66A56AEB1CBFA1C600ACB0B7 /* ABFilter.h in Headers */,
 				66A56AEF1CBFA1DC00ACB0B7 /* ABRenderer.h in Headers */,
 				66A56ACE1CBF7A9F00ACB0B7 /* ArcaneBarrageKit.h in Headers */,
 				66A56AE71CBFA1AC00ACB0B7 /* ABFactory.h in Headers */,
 				66A56AE31CBF9F5700ACB0B7 /* ArcaneBarrageView.h in Headers */,
+				6636E4301CC096E10042CA15 /* ABLabel.h in Headers */,
 				66A56ADF1CBF9DCA00ACB0B7 /* ABViewSource.h in Headers */,
 				66A56AFB1CBFA23800ACB0B7 /* ABTime.h in Headers */,
 				66A56AF31CBFA1FC00ACB0B7 /* ABRetainer.h in Headers */,
@@ -358,10 +365,11 @@
 				66A56AF41CBFA1FC00ACB0B7 /* ABRetainer.m in Sources */,
 				66A56AEC1CBFA1C600ACB0B7 /* ABFilter.m in Sources */,
 				66A56AF01CBFA1DC00ACB0B7 /* ABRenderer.m in Sources */,
+				6636E4311CC096E10042CA15 /* ABLabel.m in Sources */,
 				66A56AE41CBF9F5700ACB0B7 /* ArcaneBarrageView.m in Sources */,
+				6636E4351CC09D0B0042CA15 /* ABBaseModel.m in Sources */,
 				66A56ADC1CBF7B3200ACB0B7 /* ABViewConfiguration.m in Sources */,
 				66A56AFC1CBFA23800ACB0B7 /* ABTime.m in Sources */,
-				66A56AF81CBFA22500ACB0B7 /* ABBaseModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +517,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = ArcaneBarrageKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.khzliu.ArcaneBarrageKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -529,6 +538,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = ArcaneBarrageKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.khzliu.ArcaneBarrageKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -567,6 +577,7 @@
 				66A56AD61CBF7A9F00ACB0B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -10,4 +10,7 @@
 
 @interface ABTime : NSObject
 
+@property (nonatomic, assign) float time;
+@property (nonatomic, assign) float interval;
+
 @end

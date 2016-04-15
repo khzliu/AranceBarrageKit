@@ -7,7 +7,26 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import "ArcaneBarrageView.h"
+
+@class ABBaseModel;
 
 @interface ABRetainer : NSObject
+
+@property (nonatomic, assign) CGSize canvasSize;
+@property (nonatomic, weak) ABViewConfiguration *configuration;
+
+- (void)clearVisibleArcaneBarrage:(ABBaseModel *)barrage;
+- (float)layoutPyForArcaneBarrage:(ABBaseModel *)barrage;
+- (void)clear;
+
+@end
+
+@interface ABForTopRetainer : ABRetainer
+
+@end
+
+@interface ABForButtomRetainer : ABForTopRetainer
 
 @end

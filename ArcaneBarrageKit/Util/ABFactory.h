@@ -7,7 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ABBaseModel.h"
+#import "ArcaneBarrageView.h"
 
 @interface ABFactory : NSObject
+
++ (ABBaseModel *)createBarrageWithBarrageSource:(ABViewSource *)barrageSource
+                                       configuration:(ABViewConfiguration *)configuration;
 
 @end

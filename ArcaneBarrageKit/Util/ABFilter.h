@@ -7,7 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ABTime.h"
 
 @interface ABFilter : NSObject
+
+- (NSArray *)filterBarrages:(NSArray *)barrages time:(ABTime *)time;
+
 
 @end
